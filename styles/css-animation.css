@@ -1,0 +1,388 @@
+/*CHRIS' LOADING SPINNER*/
+.GPT3Loading { 
+    height: 100%;
+    width: 100%;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  background-size: 1800% 1800%;
+  
+  -webkit-animation: rainbow 2s ease infinite;
+  -z-animation: rainbow 2s ease infinite;
+  -o-animation: rainbow 2s ease infinite;
+    animation: rainbow 2s ease infinite;}
+  
+  @-webkit-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @-moz-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @-o-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @keyframes rainbow { 
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+
+/* ---------------- */
+/* -- BACKGROUND -- */
+/* ---------------- */
+/*.background {
+    z-index:-1;position:fixed;top:0;left:0;width:100%;height:100%;
+    background: linear-gradient(325deg,#5c57d0,  #3d0182 ,#c3106a, #c38a10 );
+    background-size: 1000% 1000%;
+    -webkit-animation: BackgroundAnimation 30s ease infinite;
+    animation: BackgroundAnimation 30s ease infinite;
+}*/
+
+:root { 
+
+    --footer-color:#0e0e0e;/*#232323;*/
+    --footer-button-color:#20202051;/*#202020;*/
+    --footer-button-edit-color:#f42a52;/*#202020;*/
+
+}
+
+
+
+.background-header {
+    background-color:#5b57d085;
+}
+
+.background{
+    z-index:-1; position:fixed;top:0;left:0;width:100%;height: 100vh;
+    background-color:#5c57d0;
+}
+.background-grey {
+    background-color:#2b2b2b;
+}
+
+
+@-webkit-keyframes BackgroundAnimation {
+0%{background-position:18% 0%}
+50%{background-position:83% 100%}
+100%{background-position:18% 0%}
+}
+@keyframes BackgroundAnimation {
+0%{background-position:18% 0%}
+50%{background-position:83% 100%}
+100%{background-position:18% 0%}
+}
+
+
+
+.stretch {
+    height: 320px;
+    width: 320px;
+    margin: 0 auto;
+    animation-name: stretch;
+    animation-duration: .45s; 
+    animation-timing-function: ease-in-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    border-radius: 100%;
+}
+
+@keyframes stretch {
+    0% {transform: scale(1);}
+    100% {transform: scale(.8);}
+}
+
+.gelatine {
+    animation: gelatine 0.5s;
+}
+@keyframes gelatine {
+    from, to { transform: scale(1, 1); }
+    20% { transform: scale(0.8, 1.2); }
+    40% { transform: scale(1.2, 0.8); }
+    60% { transform: scale(0.9, 1.1); }
+    80% { transform: scale(1.1, 0.9); }
+}
+
+
+.zoom {
+    animation: zoom .6s ease-in forwards;
+}
+@keyframes zoom {
+    0% {transform: scale(1);}
+    100% {transform: scale(10);opacity:1;}
+}
+
+
+.fade-out {
+    animation: fade-out .5s ease-in forwards;
+}
+@keyframes fade-out {
+    0% {transform: scale(10);opacity:1;}
+    100% {transform: scale(10);opacity:0;}
+}
+
+
+
+
+.drawer-hide {
+    animation-name: drawer_hide;
+    animation-duration: 0.6s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes drawer_hide {
+    0% {bottom:80px;}
+    100% {bottom:-360px;}
+}
+
+.drawer-show {
+    animation-name: drawer_show;
+    animation-duration: 0.6s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes drawer_show {
+    0% {bottom:-360px;}
+    100% {bottom:80px;}
+}
+
+
+/* ------ Mobile settings ------ */
+@media screen and (max-width: 450px) {
+    @keyframes drawer_hide {
+        0% {bottom:64px;}
+        100% {bottom:-380px;}
+    }
+    @keyframes drawer_show {
+        0% {bottom:-380px;}
+        100% {bottom:64px;}
+    }
+}
+
+
+
+
+.key-inner-container-menu .key-icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/*    background-color:#0e0e0e4a;*/
+}
+.key-inner-container-menu .key-label{color:#fff;}
+
+
+
+
+.ui-jimple-color {
+    background-image: url("/language/core/ui-jimple-color.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 64px 64px;
+    width:64px;height:64px;
+} 
+
+.ui-jimple-white {
+    background-image: url("/language/core/ui-jimple-white.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    top: 0.77rem;
+    left: 0.7rem;
+} 
+
+
+
+/*.ui-keyboard {
+    background-image: url("/language/core/ui-keyboard.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    width:24px;height:24px;
+} */
+
+
+/*.ui-backspace {
+    background-image: url("/language/core/ui-backspace.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    width:24px;height:24px;
+} */
+
+
+
+
+
+
+.bg-keyboard-mod-container{
+    background-color:#1c1c1cb2;
+}
+
+.bg-keyboard-container{
+    background-color:#1c1c1cd0;
+}
+
+
+
+.collapse {height:0;padding:0px;margin:0px;}
+
+
+.rainbow-switch{
+    background: 
+    radial-gradient(farthest-corner at top left, rgba(60, 180, 70, 1), transparent 40%),
+    radial-gradient(farthest-corner at top right,rgba(255, 25, 90, 1), transparent 90%),
+    radial-gradient(farthest-corner at bottom left,rgba(255, 196, 0, 1), transparent 90%),
+    radial-gradient(farthest-corner at bottom right, rgb(41, 150, 219),transparent 100%);
+}
+
+
+.rainbow {
+    max-width:78px;
+    height: 78px;
+    clip-path: rect(0px, 0px, 30px, 40px);
+    background: 
+    radial-gradient(farthest-corner at top left, rgba(60, 180, 70, 1), transparent 40%),
+    radial-gradient(farthest-corner at top right,rgba(255, 25, 90, 1), transparent 90%),
+    radial-gradient(farthest-corner at bottom left,rgba(255, 196, 0, 1), transparent 90%),
+    radial-gradient(farthest-corner at bottom right, rgb(41, 150, 219),transparent 100%);
+
+    background-size: 50% 50%;
+    animation: bg-pulse 1.6s infinite linear;
+  }
+
+  @keyframes bg-pulse {
+    0% { background-size:100% 100%;}
+    50% { background-size:180% 180%;}
+    100% {background-size:100% 100%;}
+  }
+
+
+
+
+.jimple-rainbow:hover {
+    max-width:112px;
+    height: 48px;
+    clip-path: rect(0px, 0px, 30px, 40px);
+    background: 
+    radial-gradient(farthest-corner at top left, rgba(60, 180, 70, 1), transparent 60%),
+    radial-gradient(farthest-corner at top right,rgba(255, 25, 90, 1), transparent 90%),
+    radial-gradient(farthest-corner at bottom right, rgb(41, 150, 219),transparent 90%),
+    radial-gradient(farthest-corner at bottom left,rgba(255, 196, 0, 1), transparent 100%);
+    background-size: 100% 100%;
+    animation: bg-pulse 1.2s infinite linear;
+  }
+
+.jimple-pulse {
+    width:48px;
+    height: 48px;
+    border-radius:100px;
+    background: 
+    radial-gradient(farthest-corner at top left, rgba(60, 180, 70, 1), transparent 40%),
+    radial-gradient(farthest-corner at top right,rgba(255, 25, 90, 1), transparent 90%),
+    radial-gradient(farthest-corner at bottom right, rgb(41, 150, 219),transparent 90%),
+    radial-gradient(farthest-corner at bottom left,rgba(255, 196, 0, 1), transparent 80%);
+    background-size: 100% 100%;
+    /*animation: gradient 0.8s ease-in-out infinite, pulse 1s ease-in-out infinite;*/
+    animation: gradient 0.8s infinite linear;
+
+  }
+  
+  @keyframes gradient {
+    0% {background-position: 0% 0%; transform: rotate(0deg) scale(1);}
+    50% {background-position: 200% 200%;transform: rotate(180deg) scale(0.9);}
+    100% {background-position: 0% 0%; transform: rotate(359deg) scale(1);}
+  }
+  
+  @keyframes pulse {
+    0% { box-shadow: 0 0 0 8px 0 rgb(255, 79, 129, 1); }
+    60% { box-shadow: 0 0 16px 4px rgba(255, 79, 129, 0.4); }
+    100% { box-shadow: 0 0 8px 0 rgba(255, 79, 129, 0); }
+  }
+  
+
+
+
+.ui-keys-container {
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+}
+
+
+
+@media screen and (max-width: 450px) {
+    .ui-keyboard-label {display:none;}
+    .ui-keys-container {
+        grid-template-rows: repeat(1, minmax(0, 1fr));
+    }
+}
+
+
+
+
+
+.animate-ants {
+    background-image: linear-gradient(90deg, rgb(255, 0, 136) 50%, transparent 50%), linear-gradient(90deg, rgb(255, 0, 136) 50%, transparent 50%), linear-gradient(0deg, rgb(255, 0, 136) 50%, transparent 50%), linear-gradient(0deg, rgb(255, 0, 136) 50%, transparent 50%);
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 8px 2px, 8px 2px, 2px 8px, 2px 8px;
+    background-position: left top, right bottom, left bottom, right top;
+    animation: border-dance 0.5s infinite linear;
+    width:100%;
+    height:100%;
+    border-radius:8px;
+  }
+  @keyframes border-dance {
+    0% {
+      background-position: left top, right bottom, left bottom, right top;
+    }
+    100% {
+      background-position: left 8px top, right 8px bottom , left bottom 8px , right top 8px;
+    }
+  }
+
+
+
+
+
+
+.bg-modifier{
+     background-color:#0e0e0e4d;
+}
+
+
+.bg-keyboard-emotion{
+    background-color:#0e0e0e16;
+}
+
+.bg-keyboard{
+    background-color:#0e0e0ec4;
+}
+
+.bg-footer{
+    background-color:#0e0e0e;
+}
+ 
+.bg-footer-button{
+    background-color:#171717;
+}
+
+.bg-footer-menu{
+    background-color:#19181c;
+}
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.jimple.jimplechat",
+        "sha256_cert_fingerprints":
+          ["26:49:93:9F:C8:79:A6:1F:F8:6C:62:0D:93:64:F8:60:7E:BA:52:CB:94:EE:1E:BB:85:46:BE:26:80:33:69:E5"]
+      }
+    }
+  ]

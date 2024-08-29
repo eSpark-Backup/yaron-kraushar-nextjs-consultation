@@ -1,0 +1,19 @@
+{
+  "extends": ["next/core-web-vitals"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    "@typescript-eslint/quotes": "off",
+    "quotes": [0],
+    "avoidEscape": 0,
+    "allowTemplateLiterals": 0,
+    "no-useless-escape": 0
+  }
+}

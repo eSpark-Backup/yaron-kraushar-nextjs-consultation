@@ -1,0 +1,502 @@
+
+    /* -------------------- */
+    /* -- CORE LANGUAGE  -- */
+    /* -------------------- */
+/* -- Research -- */
+/* - 
+auto colouring of icons using AI - https://becominghuman.ai/towards-automatic-icon-design-using-machine-learning-423cbe6710fe
+https://github.com/mosessoh/iconcolor
+-- */
+
+
+
+.punctuation-question {background-image: url("/language/actions/punctuation-question.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+.punctuation-exclamation {background-image: url("/language/actions/punctuation-exclamation.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+.punctuation-love {background-image: url("/language/actions/punctuation-love.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+.punctuation-not {background-image: url("/language/actions/punctuation-not.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+
+.punctuation-or {background-image: url("/language/actions/punctuation-or.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+.punctuation-and {background-image: url("/language/actions/punctuation-and.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+
+
+.core-question {background-image: url("/language/actions/core-question.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+.core-exclamation {background-image: url("/language/actions/core-exclamation.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+
+
+
+
+    /* -- CORE  -- */
+    .overlay-not {background-image: url("/language/punctuation/overlay-not.svg");}
+    .overlay-broken {background-image: url("/language/punctuation/overlay-broken.svg");}
+    .overlay-hot {background-image: url("/language/punctuation/overlay-hot.svg");}
+    .overlay-cold {background-image: url("/language/punctuation/overlay-cold.svg");}
+
+    .core-greet {background-image: url("/language/core/core-menu-greet.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .core-hello {background-image: url("/language/emote/emote-hi.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .core-yes {background-image: url("/language/emote/emote-yes.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .core-no {background-image: url("/language/emote/emote-no.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .core-add-photo {background-image: url("/language/core/core-menu-add-photo.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    /* --- */
+    .core-people {background-image: url("/language/core/core-menu-people.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .core-actions {background-image: url("/language/core/core-menu-action.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .core-feel {background-image: url("/language/core/core-menu-emote.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .core-time {background-image: url("/language/core/core-menu-time.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    /* --- */
+    .core-objects {background-image: url("/language/core/core-menu-object.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .core-food {background-image: url("/language/core/core-menu-food.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .core-places {background-image: url("/language/core/core-menu-location.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .core-weather {background-image: url("/language/core/core-menu-weather.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+     /* --- */
+    .core-bye {background-image: url("/language/emote/emote-bye.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .core-please {background-image: url("/language/emote/emote-please.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .core-thanks {background-image: url("/language/emote/emote-thanks.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .core-punctuation {background-image: url("/language/core/core-menu-punctuation.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+
+    .core-gesture {background-image: url("/language/core/core-menu-gesture.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+
+    .core-lost {background-image: url("/language/actions/core-lost.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    
+    .action-meet {background-image: url("/language/actions/action-meet.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .action-leave {background-image: url("/language/actions/action-leave.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .action-arrive {background-image: url("/language/actions/action-arrive.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    
+    
+    .core-how {background-image: url("/language/actions/core-how.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .core-who {background-image: url("/language/actions/core-who.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .core-what {background-image: url("/language/actions/core-what.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .core-when {background-image: url("/language/actions/core-when.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .core-where {background-image: url("/language/actions/core-where.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .core-positive {background-image: url("/language/actions/core-positive.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .core-negative {background-image: url("/language/actions/core-negative.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .core-maybe {background-image: url("/language/actions/core-maybe.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .core-emotion-feel {background-image: url("/language/actions/core-emotion-feel.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    
+    
+ 
+
+    .num-1 {background-image: url("/language/punctuation/number-1.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .num-2 {background-image: url("/language/punctuation/number-2.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .num-3 {background-image: url("/language/punctuation/number-3.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .num-4 {background-image: url("/language/punctuation/number-4.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .num-5 {background-image: url("/language/punctuation/number-5.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .num-6 {background-image: url("/language/punctuation/number-6.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .num-7 {background-image: url("/language/punctuation/number-7.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .num-8 {background-image: url("/language/punctuation/number-8.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .num-9 {background-image: url("/language/punctuation/number-9.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+
+
+
+
+    /*-- ACTIONS -- */
+    .action-jimple {background-image: url("/language/actions/action-jimple.svg");}
+    .action-want {background-image: url("/language/actions/action-want.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .action-give {background-image: url("/language/actions/action-give.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .action-feel {background-image: url("/language/actions/action-feel.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .action-think {background-image: url("/language/actions/action-think.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    /* --- */
+    .action-travel {background-image: url("/language/actions/action-travel.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .action-call {background-image: url("/language/actions/action-call.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .action-eat {background-image: url("/language/actions/action-eat.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .action-drink {background-image: url("/language/actions/action-drink.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .action-speak {background-image: url("/language/actions/action-speak.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+  
+    .action-stay {background-image: url("/language/actions/action-stay.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .action-leave {background-image: url("/language/actions/action-leave.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .action-sit {background-image: url("/language/actions/action-sit.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .action-stand {background-image: url("/language/actions/action-stand.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .action-wake {background-image: url("/language/actions/action-awake.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .action-sleep {background-image: url("/language/actions/action-sleep.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .action-hungry {background-image: url("/language/actions/action-hungry.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .action-go {background-image: url("/language/actions/action-go.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    
+    .action-read {background-image: url("/language/actions/action-read.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    
+    .action-draw {background-image: url("/language/actions/action-draw.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .action-sing {background-image: url("/language/actions/action-sing.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .action-brush-teeth {background-image: url("/language/actions/action-brush-teeth.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+  
+
+  
+    /* --- */
+    .action-look {background-image: url("/language/actions/action-look.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .action-hear {background-image: url("/language/actions/action-hear.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .action-hug {background-image: url("/language/actions/action-hug.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .action-kiss {background-image: url("/language/emote/emote-kiss.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+  
+
+    /*-- PEOPLE -- */
+    .people-who {background-image: url("/language/people/people-who.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .people-i {background-image: url("/language/people/people-i.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .people-you {background-image: url("/language/people/people-you.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .people-we {background-image: url("/language/people/people-we.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+     /* --- */
+    .people-family {background-image: url("/language/people/people-family.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .people-mum {background-image: url("/language/people/people-mum.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .people-dad {background-image: url("/language/people/people-dad.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .people-friends {background-image: url("/language/people/people-crowd.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    /* --- */
+    .people-person {background-image: url("/language/people/people-person.svg");background-blend-mode: multiply;mix-blend-mode: multiply;} 
+    .people-couple {background-image: url("/language/people/people-couple.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .people-male {background-image: url("/language/people/people-male.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .people-female {background-image: url("/language/people/people-female.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    /* --- */
+    .people-body-hand {background-image: url("/language/people/people-body-hand.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .people-body-head {background-image: url("/language/people/people-body-head.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .people-body-body {background-image: url("/language/people/people-body-chest.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .people-body-foot {background-image: url("/language/people/people-body-foot.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    /* --- */
+    .people-senior {background-image: url("/language/people/people-old.svg");background-blend-mode: multiply;mix-blend-mode: multiply;} 
+    .people-adult {background-image: url("/language/people/people-adult.svg");background-blend-mode: multiply;mix-blend-mode: multiply;} 
+    .people-child {background-image: url("/language/people/people-young.svg");background-blend-mode: multiply;mix-blend-mode: multiply;} 
+    .people-baby {background-image: url("/language/people/people-baby.svg");background-blend-mode: multiply;mix-blend-mode: multiply;} 
+ 
+
+    /*-- EMOTIONS --*/
+    .emotion-feeling {background-image: url("/language/emote/emote-what.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-wink {background-image: url("/language/emote/emote-wink.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-thinking {background-image: url("/language/emote/emote-hmm.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-not-sure {background-image: url("/language/emote/emote-dunno.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    /* --- */
+    .emotion-excited {background-image: url("/language/emote/emote-excited.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-excited-really {background-image: url("/language/emote/emote-excited-really.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-angry {background-image: url("/language/emote/emote-angry.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-angry-really {background-image: url("/language/emote/emote-angry-really.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-disgust {background-image: url("/language/emote/emote-disgust.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-disgust-really {background-image: url("/language/emote/emote-disgust-really.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-confused {background-image: url("/language/emote/emote-confused.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-happy-less {background-image: url("/language/emote/emote-happy-less.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-happy {background-image: url("/language/emote/emote-happy.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-happy-really {background-image: url("/language/emote/emote-happy-really.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-neutral {background-image: url("/language/emote/emote-plain.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-sad-less {background-image: url("/language/emote/emote-sad-less.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-sad {background-image: url("/language/emote/emote-sad.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-sad-really {background-image: url("/language/emote/emote-sad-really.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-hurt {background-image: url("/language/emote/emote-hurt.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-hurt-really {background-image: url("/language/emote/emote-hurt-really.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    /* --- */
+    .emotion-loved {background-image: url("/language/emote/emote-love.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-loved-really {background-image: url("/language/emote/emote-love-really.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-scared-really {background-image: url("/language/emote/emote-scared-really.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-scared {background-image: url("/language/emote/emote-scared.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-scared-less {background-image: url("/language/emote/emote-scared-less.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-bored {background-image: url("/language/emote/emote-bored.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-bored-really {background-image: url("/language/emote/emote-bored-really.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-sick-really {background-image: url("/language/emote/emote-sick-really.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-sick {background-image: url("/language/emote/emote-sick.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-sick-less {background-image: url("/language/emote/emote-sick-less.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    /* --- */
+    .emotion-sorry {background-image: url("/language/emote/emote-sorry.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-moment {background-image: url("/language/emote/emote-moment.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-doh {background-image: url("/language/emote/emote-doh.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-relieved{background-image: url("/language/emote/emote-phew.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    
+    .emotion-stressed{background-image: url("/language/emote/emote-stressed.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    
+    .emotion-tired-less{background-image: url("/language/emote/emote-tired-less.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-tired{background-image: url("/language/emote/emote-tired.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-tired-really{background-image: url("/language/emote/emote-tired-really.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    
+    .emotion-hopeful{background-image: url("/language/emote/emote-hopeful.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+   
+    .emotion-funny-less{background-image: url("/language/emote/emote-funny-less.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-funny{background-image: url("/language/emote/emote-funny.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .emotion-funny-really{background-image: url("/language/emote/emote-funny-really.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+   
+    .emotion-yum{background-image: url("/language/emote/emote-yum.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+   
+    /* --- */
+    /* -- asdf(awkward), hot, cold --*/
+
+
+
+    /*-- TIME --*/
+    .time-when {background-image: url("/language/time/time-when.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .time-hour {background-image: url("/language/time/time-hour.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .time-day {background-image: url("/language/time/time-day.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .time-week {background-image: url("/language/time/time-week.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .time-month {background-image: url("/language/time/time-month.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .time-15min {background-image: url("/language/time/time-15min.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .time-30min {background-image: url("/language/time/time-30min.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .time-1hr {background-image: url("/language/time/time-1hr.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .time-2hr {background-image: url("/language/time/time-2hr.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .time-breakfast {background-image: url("/language/time/time-breakfast.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .time-lunch {background-image: url("/language/time/time-lunch.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .time-dinner {background-image: url("/language/time/time-dinner.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+
+    .time-now {background-image: url("/language/time/time-now.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .time-later {background-image: url("/language/time/time-later.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+
+
+
+    /*-- OBJECTS --*/
+     .object-what {background-image: url("/language/objects/what.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+   /* .object-price {background-image: url("/language/objects/price.svg");background-blend-mode: multiply;mix-blend-mode: multiply;} */
+    .object-couch {background-image: url("/language/objects/couch.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-bed {background-image: url("/language/objects/bed.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-fridge {background-image: url("/language/objects/fridge.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    
+    .object-table {background-image: url("/language/objects/table.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-microwave {background-image: url("/language/objects/microwave.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    
+
+
+    .object-shower {background-image: url("/language/objects/shower.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-toilet {background-image: url("/language/objects/toilet.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-bin {background-image: url("/language/objects/bin.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+
+
+    .object-phone {background-image: url("/language/objects/phone.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-laptop {background-image: url("/language/objects/laptop.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-tv {background-image: url("/language/objects/tv.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-console {background-image: url("/language/objects/console.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-web {background-image: url("/language/objects/internet.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+
+    .object-flipflop {background-image: url("/language/objects/thongs.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-shoes {background-image: url("/language/objects/shoes.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-socks {background-image: url("/language/objects/socks.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-shorts {background-image: url("/language/objects/shorts.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-jeans {background-image: url("/language/objects/jeans.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-tshirt {background-image: url("/language/objects/tshirt.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-dress {background-image: url("/language/objects/dress.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-backpack {background-image: url("/language/objects/backpack.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+  
+    .object-asthma {background-image: url("/language/objects/asthma_pump.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-bandaid {background-image: url("/language/objects/bandaid.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+   
+   
+    .object-money {background-image: url("/language/objects/money.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-credit-card {background-image: url("/language/objects/credit-card.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+   
+    /* --- */
+    .object-wheelchair {background-image: url("/language/transportation/wheelchair.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-bicycle {background-image: url("/language/transportation/bicycle.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}   
+    .object-skateboard {background-image: url("/language/objects/skateboard.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}   
+    .object-blades {background-image: url("/language/objects/rollerblades.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}   
+    
+    
+    
+    .object-car {background-image: url("/language/transportation/car.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-bus {background-image: url("/language/transportation/bus.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-train {background-image: url("/language/transportation/train.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-plane {background-image: url("/language/transportation/plane.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-tram {background-image: url("/language/transportation/tram.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    
+
+
+
+
+
+    .object-dog {background-image: url("/language/objects/dog.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-cat {background-image: url("/language/objects/cat.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-horse {background-image: url("/language/objects/horse.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-cow {background-image: url("/language/objects/cow.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-bird {background-image: url("/language/objects/bird.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    
+    .object-fly {background-image: url("/language/objects/fly.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-ladybug {background-image: url("/language/objects/ladybug.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-spider {background-image: url("/language/objects/spider.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-worm {background-image: url("/language/objects/worm.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+
+
+
+    .object-baseball {background-image: url("/language/objects/baseball.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-cricket {background-image: url("/language/objects/cricket.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-basketball {background-image: url("/language/objects/basketball.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-football {background-image: url("/language/objects/football.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .object-tennis {background-image: url("/language/objects/tennis.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+
+
+
+
+
+
+
+    /*-- FOOD --*/
+    .food-what {background-image: url("/language/food/food-what.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .food-price {background-image: url("/language/food/food-price.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .food-water {background-image: url("/language/food/water.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .food-shake {background-image: url("/language/food/milkshake.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    /* --- */ 
+    .food-coffee {background-image: url("/language/food/coffee.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .food-pearl-tea {background-image: url("/language/food/bubbletea.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .food-softdrink {background-image: url("/language/food/can_soft_drink.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .food-tea {background-image: url("/language/food/tea.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    
+    .food-milk {background-image: url("/language/food/milk.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .food-apple-juice {background-image: url("/language/food/juice_apple.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .food-orange-juice {background-image: url("/language/food/juice_orange.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    
+    .food-apple {background-image: url("/language/food/apple.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .food-banana {background-image: url("/language/food/banana.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .food-watermelon {background-image: url("/language/food/watermelon.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .food-grapes {background-image: url("/language/food/grapes.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .food-strawberry {background-image: url("/language/food/strawberry.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .food-orange {background-image: url("/language/food/orange.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    
+
+
+    
+    /* --- */ 
+    .food-pizza {background-image: url("/language/food/pizza.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .food-burger {background-image: url("/language/food/burger.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .food-hotdog {background-image: url("/language/food/hotdog.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .food-bread {background-image: url("/language/food/bread.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .food-baguette {background-image: url("/language/food/baguette.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .food-pie {background-image: url("/language/food/pie.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .food-egg {background-image: url("/language/food/egg.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+
+    .food-fish {background-image: url("/language/food/fish.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .food-potato {background-image: url("/language/food/potatoe.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+
+
+   
+    /* --- */  
+    .food-sushi {background-image: url("/language/food/sushi.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .food-noodle {background-image: url("/language/food/bowl_noodles.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .food-soup {background-image: url("/language/food/bowl_soup.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .food-spaghetti {background-image: url("/language/food/bowl_spaghetti.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .food-noodles {background-image: url("/language/food/bowl_noodles.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .food-soup {background-image: url("/language/food/bowl_soup.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .food-rice {background-image: url("/language/food/bowl_rice.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .food-dumplings {background-image: url("/language/food/dumplings.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    
+    
+    .food-cake {background-image: url("/language/food/cake_birthday.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .food-chips {background-image: url("/language/food/chips.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    /* --- */
+    .food-pancakes {background-image: url("/language/food/pancakes.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    
+    .food-donut {background-image: url("/language/food/donut.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .food-ice-cream {background-image: url("/language/food/ice_cream.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .food-ice-pole {background-image: url("/language/food/ice_pole.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .food-crisps {background-image: url("/language/food/crisps.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    
+    .food-chocolate {background-image: url("/language/food/bar_chocolate.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .food-cupcake {background-image: url("/language/food/cupcake.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+   
+
+
+
+
+
+    /*-- LOCATIONS --*/
+    .location-where {background-image: url("/language/locations/location-where.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .location-home {background-image: url("/language/locations/location-home.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .location-inside {background-image: url("/language/locations/location-inside.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .location-outside {background-image: url("/language/locations/location-outside.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    /* --- */
+    .location-school {background-image: url("/language/locations/location-school.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .location-city {background-image: url("/language/locations/location-city.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .location-beach {background-image: url("/language/locations/location-beach.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .location-park {background-image: url("/language/locations/location-park.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    /* --- */
+    .location-airport {background-image: url("/language/locations/location-airport.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .location-post {background-image: url("/language/locations/location-post.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .location-church {background-image: url("/language/locations/location-church.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .location-bank {background-image: url("/language/locations/location-bank.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .location-library {background-image: url("/language/locations/location-library.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .location-hospital {background-image: url("/language/locations/location-hospital.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .location-petrol {background-image: url("/language/locations/location-petrol.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    
+    
+
+
+
+
+    /*-- WEATHER --*/
+    .weather-sunny {background-image: url("/language/weather/weather-sunny.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .weather-cloudy {background-image: url("/language/weather/weather-cloudy.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .weather-windy {background-image: url("/language/weather/weather-windy.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .weather-snowing {background-image: url("/language/weather/weather-snowing.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    
+    .weather-stormy {background-image: url("/language/weather/weather-stormy.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .weather-raining {background-image: url("/language/weather/weather-raining.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .weather-light-rain {background-image: url("/language/weather/weather-light-rain.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .weather-rainbow {background-image: url("/language/weather/weather-rainbow.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+
+    /*-- PUNCTUATION --*/
+    .punctuation-question {background-image: url("/language/punctuation/punctuation-question.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .punctuation-exclamation {background-image: url("/language/punctuation/punctuation-exclamation.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .punctuation-fullstop {background-image: url("/language/punctuation/punctuation-fullstop.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .punctuation-dot {background-image: url("/language/punctuation/punctuation-dot.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    
+
+
+
+
+    /* ---------------- */
+    /* -- MODIFIERS  -- */
+    /* ---------------- */
+
+    .modifier-my {background-image: url("/language/modifiers/modifier-my.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .modifier-your {background-image: url("/language/modifiers/modifier-your.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .modifier-our {background-image: url("/language/modifiers/modifier-our.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+
+    .modifier-before {background-image: url("/language/modifiers/modifier-before.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .modifier-now {background-image: url("/language/modifiers/modifier-now.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .modifier-later {background-image: url("/language/modifiers/modifier-later.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+   
+    .modifier-morning {background-image: url("/language/modifiers/modifier-morning.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .modifier-midday {background-image: url("/language/modifiers/modifier-midday.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .modifier-evening {background-image: url("/language/modifiers/modifier-evening.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .modifier-night {background-image: url("/language/modifiers/modifier-night.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+   
+
+
+    
+    .modifier-done {background-image: url("/language/modifiers/modifier-done.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    
+    .modifier-hot {background-image: url("/language/modifiers/modifier-hot.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .modifier-cold {background-image: url("/language/modifiers/modifier-cold.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    
+    .modifier-really {background-image: url("/language/modifiers/modifier-more.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .modifier-more {background-image: url("/language/modifiers/modifier-more.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .modifier-less {background-image: url("/language/modifiers/modifier-less.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    
+    .modifier-in {background-image: url("/language/modifiers/modifier-put-in.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .modifier-out {background-image: url("/language/modifiers/modifier-put-out.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+
+    .modifier-top {background-image: url("/language/modifiers/modifier-top.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .modifier-under {background-image: url("/language/modifiers/modifier-under.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+
+    .modifier-leave {background-image: url("/language/modifiers/modifier-leave.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .modifier-arrive {background-image: url("/language/modifiers/modifier-arrive.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .modifier-move {background-image: url("/language/modifiers/modifier-move.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .modifier-went {background-image: url("/language/modifiers/modifier-move.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .modifier-go {background-image: url("/language/modifiers/modifier-go.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .modifier-to {background-image: url("/language/modifiers/modifier-go.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+   
+    .modifier-question {background-image: url("/language/modifiers/modifier-question.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .modifier-love {background-image: url("/language/modifiers/modifier-love.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .modifier-not {background-image: url("/language/modifiers/modifier-not.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    
+    .modifier-broken {background-image: url("/language/modifiers/modifier-broken.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+
+
+
+
+    .modifier-meet {background-image: url("/language/modifiers/modifier-meet.svg");background-blend-mode: multiply;mix-blend-mode: multiply;    background-position: center;background-repeat: no-repeat;}
+    .modifier-later {background-image: url("/language/modifiers/modifier-later.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+
+    
+    .icon-where {background-image: url("/language/modifiers/modifier-question.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .modifier-where {background-image: url("/language/modifiers/modifier-where.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .modifier-at {background-image: url("/language/modifiers/modifier-here.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+
+    .modifier-when {background-image: url("/language/modifiers/modifier-question.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .modifier-what {background-image: url("/language/modifiers/modifier-question.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .modifier-want {background-image: url("/language/modifiers/modifier-question.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .modifier-lost {background-image: url("/language/modifiers/modifier-lost.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .modifier-price {background-image: url("/language/modifiers/modifier-cost.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+
+    
+    .modifier-small {background-image: url("/language/modifiers/modifier-small.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .modifier-medium {background-image: url("/language/modifiers/modifier-medium.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .modifier-large {background-image: url("/language/modifiers/modifier-large.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .modifier-sml {background-image: url("/language/modifiers/modifier-sml.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .modifier-med {background-image: url("/language/modifiers/modifier-med.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .modifier-lrg {background-image: url("/language/modifiers/modifier-lrg.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+
+
+    .modifier-and {background-image: url("/language/modifiers/modifier-and.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}
+    .modifier-or {background-image: url("/language/modifiers/modifier-or.svg");background-blend-mode: multiply;mix-blend-mode: multiply;}

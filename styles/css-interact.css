@@ -1,0 +1,468 @@
+/*-- Global settings --*/
+:root { 
+    --pref-button-color:#20202034;/*#202020;*/
+    --drawer-color:#080808cc;/*#1f1f1fe8;*/
+    --modifier-color:#0b0b0b87;/*#232323dc;*/
+
+  
+    --header-button-color:#33333344;
+    --global-border-highlight-color:#FF3057;
+
+    --key-height:78px;
+    --key-width:78px;
+    --label-size:13px;
+    --label-bg-color:#ffffff00;
+    --label-color:rgb(51, 51, 51);
+    --keyboard-height:362px;/* 3 rows *//* 4 rows = 376px; */
+    --keyboard-height-portrait:400px;/* 4 rows */
+    /*--keyboard-height: 400 px; /*-- 4 rows-large -- */
+}
+
+html, body {
+    touch-action: pan-y, pan-x;
+    font-family: 'Nunito', sans-serif;
+    font-weight:600;
+}
+
+
+/* -------------- */
+/* -- KEYBOARD -- */
+/* -------------- */
+.keyboard-container{
+    width:100%;
+    position:fixed;
+    bottom:86px;
+    left:0px;
+    background-color:var(--drawer-color);
+    /*z-index:10;
+    overflow-x: scroll;*/
+}
+
+
+.key-inner-container-menu {
+    padding:8px;
+    height: var(--keyboard-height);
+  
+    display: flex;
+    flex-flow: column wrap;
+    width: 176px;
+    min-width: 176px;
+
+}
+
+
+
+.key-inner-container {
+    padding: 8px 8px 0 8px;
+    width:100%;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    display: flex;
+    height: var(--keyboard-height);
+    flex-flow: column wrap;
+    align-content: flex-start;
+    max-height:368px;
+}
+
+.key-icon-container{
+    width:var(--key-width);
+    height:var(--key-height);
+    margin-right:8px;
+    margin-bottom:8px;
+    border-radius:8px;
+    padding:4px 8px;
+    cursor:pointer;
+    position:relative;
+}
+
+.key-label{
+    position:absolute;
+    bottom:6px;
+    width:62px;
+    height:16px;
+    text-align: center;
+    font-size:var(--label-size);
+    margin-top:-12px;
+    color:var(--label-color);
+    background-color:var(--label-bg-color);
+}
+
+/* -- icon SVG -- */
+.key-icon{
+    width:62px;
+    height:58px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:#ffffff00;
+}
+
+
+
+/* ---------------------------- */
+/* ------ MODIFIER LIST ------- */
+/* ---------------------------- */
+.modifier-inner-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .modifier-inner-container {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+.modifier-container{
+    background-color:rgb(255, 255, 255);
+    width:78px;
+    height:35px;
+    margin-right:8px;
+    margin-bottom:1px;
+    border-radius:8px;
+    padding: 4px;
+    display:inline-block;
+    cursor:pointer;
+}
+
+.modifier-icon{
+    background-size:80px 26px;
+    width: 70px;
+    height: 26px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:#fff;
+}
+
+.modifier-label{
+    width:70px;
+    height:14px;
+    text-align: center;
+    font-size:var(--label-size);
+    color:var(--label-color);
+    background-color:var(--label-bg-color);
+}
+
+
+
+
+
+
+
+
+
+
+/* ----------------------- */
+/* ------ BIT LIST ------- */
+/* ----------------------- */
+.message-container{
+    padding:8px;
+    padding-bottom:516px;
+}
+
+
+
+.bit-container {
+    position:relative;
+    width:132px;/*208px;*/
+    min-height:132px;/*208px;*/
+
+    display: flex; 
+    padding:4px 12px;
+   /* 
+       background-color:#fff;
+   margin-right:8px;
+    margin-bottom:8px;*/
+    border-radius: 16px;
+}
+
+/*.bit-container:last-of-type{
+    border-radius: 16px 16px 0 16px;
+}*/
+
+.bit-top{z-index:4;position:absolute;top:8px;left:24px;width:160px;height:24px;
+    /*background-color: rgba(113, 181, 158, 0.4);*/
+}
+.bit-left{z-index:4;position:absolute;
+    top: 6px;
+    left: 12px;
+    width: 16px;
+    height: 92px;
+   /* background-color: rgba(113, 181, 158, 0.4);*/
+    background-repeat: no-repeat;
+    background-size: 16px 92px;
+}
+.bit-overlay{z-index:5;position:absolute;top:8px;left:24px;width:84px;height:84px;}
+.bit-icon {position:absolute;
+    top: 6px;
+    left: 20px;
+    width: 92px;
+    height: 92px;
+    /*background-color:#ff305625;*/
+}
+.bit-photo{
+    position:absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 84px 84px;
+    width: 84px;height: 84px;
+}
+
+.bit-right{
+    z-index:4;
+    position:absolute;
+    top:32px;right:24px;
+    width:16px;height:92px;
+   /* background-color: rgba(113, 181, 158, 0.4);*/
+    background-repeat: no-repeat;
+    background-size: 16px 92px;
+}
+.bit-bottom{z-index:4;
+    position:absolute;
+    top: 88px;
+    left: 20px;
+    width: 92px;
+    height: 16px;
+   /* background-color: rgba(113, 181, 158, 0.4);*/
+    background-repeat: no-repeat;}
+.bit-label{
+    position:absolute;
+    bottom: 6px;
+    left: 8px;
+    height: 22px;
+    width: 116px;
+    text-align: center;
+    font-size:14px;
+    font-weight:400;
+    color:rgb(51, 51, 51);
+    /*background-color: rgba(113, 181, 158, 0.4);*/
+}
+
+
+.key-inner-container-for-mobile{
+    flex-direction: row;
+    height: 350px;
+}
+
+.modifier-container{
+    margin-left: auto;
+}
+.modifier-inner-container {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding-left:8px;
+    max-width: 200px;
+    padding-top: 8px;
+    height: 350px;
+    display: flex;
+    z-index:10;
+    flex-flow: column wrap; /* change flex-flow to column */
+    align-content: flex-start;
+    flex-wrap: wrap-reverse;
+    background-color:#0808086c;
+}
+
+
+
+
+/* ------ Mobile settings ------ */
+@media screen and (max-width: 450px) {
+  
+    .modifier-inner-container {
+        flex-flow: column;
+        flex-wrap: wrap;
+        left:8px;
+        overflow-x: scroll;
+        width:100%;
+        max-width:100%;
+    }
+
+    .key-inner-container-for-mobile{
+        flex-direction: column;
+        height: 290px;
+    }
+
+    .bg_menu .key-label {display:none;}
+
+    .key-inner-container-menu .key-icon {
+        width:100%;
+        height:40px;
+    }
+    
+    .key-inner-container-menu .key-icon-container {
+        width:94%;
+        margin:4px;
+        height:42px;
+        padding:0;
+    }
+    
+    .key-inner-container-menu{
+        position: absolute;
+        bottom: 6px;
+        height: 64px;/*124px;*/
+        width: 100%;
+        padding:4px;
+    }
+
+    /*-- change key --*/
+    .key-inner-container{
+        --keyboard-height:188px;/* 4 rows */
+        margin:0px;
+        margin-top: 44px;
+        max-height:188px;
+    }
+
+
+    
+    /*-- change mod --*/
+    .modifier-inner-container{
+        height: 44px;
+        padding-top:0;
+        margin-top:8px;
+        padding-left:0px;
+    }
+
+}
+
+
+
+/* ----------------------- */
+/* ------ PREF MENU ------- */
+/* ----------------------- */
+.pref-container {
+    background:#fff;border-radius:16px;
+    position:fixed;
+    top:100px;
+    z-index:20;
+    padding:16px;  
+    left: 50%;    
+    transform: translate(-50%);
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
+}
+
+.menu-button {
+    height:64px;
+    width:64px;
+    background-color:#eee;
+    border: 2px solid #eee;
+    color:#333;
+    margin-right:8px;
+    border-radius:8px;
+    padding: 6px 10px;
+    cursor:pointer; 
+    font-size:8px;
+    text-align:center;
+    position:relative;
+}
+
+.menu-button-label {
+    position:absolute;
+    bottom:2px;
+    font-size:10px;
+    left: 50%;
+    transform: translate(-50%);
+    width:100%;
+
+}
+
+.menu-blank {
+    height:64px;
+    width:64px;
+    margin-right:8px;
+}
+
+
+
+/* ---------------------- */
+/* ------ GESTURE ------- */
+/* ---------------------- */
+.gesture-container {
+    width:416px;
+    height:250px;
+    background-color:#fff;
+    border-radius: 8px;
+    margin-right:8px;
+    margin-bottom:8px;
+}
+
+
+.message_feed_container{
+    background-color:rgba(0, 0, 0, 0.346);
+    position:absolute;
+    top:0;
+    left:0;
+    height:50vh;
+    overflow:auto;
+    width:100%;
+}
+
+.realtime_feed_container{
+background-color:#Fff;
+margin-right:8px;
+}
+
+.realtime_feed{
+    background-color:#fff;
+    padding: 12px 16px;
+    border-radius:16px 16px 16px 0;
+    margin: 8px 16px;
+
+    color:#000;
+    width:fit-content;
+    height:fit-content;
+}
+
+
+.block-container {
+    background-color:#fff;
+    width:fit-content;
+    height:fit-content;
+    border-radius:16px 16px 0 16px;
+    margin:8px 16px;
+    padding: 8px 2px 2px 8px;
+
+}
+
+
+.user_selector {
+    width:60px;
+    height:60px;
+    border-radius:8px;
+    font-size:12px;
+    padding:20px 10px;
+}
+
+.message_option_container{
+    min-height:94px;
+    position:absolute;
+    top:50%;
+    left:32px;
+    padding:8px;
+    background-color:#fff;
+    border-radius:8px;
+
+}
+
+.message_option{
+  width:78px;
+  height:78px;
+  border-radius:8px;
+  background-color:#eee; 
+  margin-right:8px; 
+}
+.message_option:last-of-type {
+    margin-right:0;
+}
+
+.complete-message-container {
+    position:absolute;
+    top:0;
+    left:0;
+    min-height:200px;
+    width:100%;
+    max-height:55vh;
+   /* background-color:rgba(0, 0, 0, 0.109);*/
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

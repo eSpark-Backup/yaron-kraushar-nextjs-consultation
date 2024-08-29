@@ -1,0 +1,35 @@
+const { MongoClient } = require('mongodb');
+const crypto = require('crypto');
+
+// This would have to be the same master key as was used to create the encryption key
+const localMasterKey = crypto.randomBytes(96);
+
+const autoEncryption = {
+  keyVaultNamespace: 'admin.datakeys',
+  kmsProviders: {
+    local: {
+      key: localMasterKey
+    }
+  }
+};
+
+const URL = 'mongodb://localhost:27017';
+const client = new MongoClient(URL, { autoEncryption, useUnifiedTopology: true });
+
+main();
+
+async function main() {
+  try {
+    await client.connect();
+
+    const db = mongoClient.db('test');
+    await db.dropCollection('coll');
+
+    const collection = db.collection('coll');
+    await collection.insertOne({ encryptedField: '123456789' });
+    const result = await collection.findOne({});
+    console.log(result);
+  } finally {
+    await client.close();
+  }
+}

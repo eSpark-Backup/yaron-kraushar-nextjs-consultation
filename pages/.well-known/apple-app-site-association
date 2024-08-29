@@ -1,0 +1,24 @@
+{
+  "applinks":{
+    "apps":[
+       
+    ],
+    "details":[
+      {
+        "appIDs":[
+          "5CPX8P2F23.com.jimple.jimplechat"
+        ],
+        "components":[
+          {
+            "/":"/",
+            "comment":"Matches path to home"
+          },
+          {
+            "/":"/PrivacyPolicyScreenPage",
+            "comment":"Go to privacy policy screen"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1576 @@
+{
+  "hello": {
+    "label": "hello",
+    "description": "hi, hello, greeting",
+    "modifier_group": "blank",
+    "bg_color": "bg_emote",
+    "icon_file_name": "core-hello",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "bye": {
+    "label": "bye",
+    "description": "goodbye, see you later",
+    "modifier_group": "blank",
+    "bg_color": "bg_emote",
+    "icon_file_name": "core-bye",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "please": {
+    "label": "please",
+    "description": "",
+    "modifier_group": "blank",
+    "bg_color": "bg_emote",
+    "icon_file_name": "core-please",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "thanks": {
+    "label": "thanks",
+    "description": "",
+    "modifier_group": "blank",
+    "bg_color": "bg_emote",
+    "icon_file_name": "core-thanks",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "thinking": {
+    "label": "thinking",
+    "description": "",
+    "modifier_group": "blank",
+    "bg_color": "bg_emote",
+    "icon_file_name": "emotion-thinking",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "not sure": {
+    "label": "not sure",
+    "description": "",
+    "modifier_group": "blank",
+    "bg_color": "bg_emote",
+    "icon_file_name": "emotion-not-sure",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "all good": {
+    "label": "all good",
+    "description": "",
+    "modifier_group": "blank",
+    "bg_color": "bg_emote",
+    "icon_file_name": "emotion-wink",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "sorry": {
+    "label": "sorry",
+    "description": "",
+    "modifier_group": "blank",
+    "bg_color": "bg_emote",
+    "icon_file_name": "emotion-sorry",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "hold on": {
+    "label": "hold on",
+    "description": "",
+    "modifier_group": "blank",
+    "bg_color": "bg_emote",
+    "icon_file_name": "emotion-moment",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "happy": {
+    "label": "happy",
+    "description": "",
+    "modifier_group": "feel",
+    "bg_color": "bg_emote_core",
+    "icon_file_name": "emotion-happy",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "excited": {
+    "label": "excited",
+    "description": "",
+    "modifier_group": "feel",
+    "bg_color": "bg_emote_core",
+    "icon_file_name": "emotion-excited",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "love": {
+    "label": "love",
+    "description": "",
+    "modifier_group": "feel",
+    "bg_color": "bg_emote_core",
+    "icon_file_name": "emotion-loved",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "sad": {
+    "label": "sad",
+    "description": "",
+    "modifier_group": "feel",
+    "bg_color": "bg_emote_core",
+    "icon_file_name": "emotion-sad",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "bored": {
+    "label": "bored",
+    "description": "",
+    "modifier_group": "feel",
+    "bg_color": "bg_emote_core",
+    "icon_file_name": "emotion-bored",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "angry": {
+    "label": "angry",
+    "description": "",
+    "modifier_group": "feel",
+    "bg_color": "bg_emote_core",
+    "icon_file_name": "emotion-angry",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "yum": {
+    "label": "yum",
+    "description": "",
+    "modifier_group": "blank",
+    "bg_color": "bg_emote",
+    "icon_file_name": "emotion-yum",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "funny": {
+    "label": "funny",
+    "description": "",
+    "modifier_group": "feel",
+    "bg_color": "bg_emote",
+    "icon_file_name": "emotion-funny",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "relieved": {
+    "label": "relieved",
+    "description": "",
+    "modifier_group": "blank",
+    "bg_color": "bg_emote",
+    "icon_file_name": "emotion-relieved",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "disgusted": {
+    "label": "disgusted",
+    "description": "",
+    "modifier_group": "feel",
+    "bg_color": "bg_emote_core",
+    "icon_file_name": "emotion-disgust",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "stressed": {
+    "label": "stressed",
+    "description": "",
+    "modifier_group": "feel",
+    "bg_color": "bg_emote",
+    "icon_file_name": "emotion-stressed",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "confused": {
+    "label": "confused",
+    "description": "",
+    "modifier_group": "blank",
+    "bg_color": "bg_emote",
+    "icon_file_name": "emotion-confused",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "hurt": {
+    "label": "hurt",
+    "description": "",
+    "modifier_group": "feel",
+    "bg_color": "bg_emote",
+    "icon_file_name": "emotion-hurt",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "scared": {
+    "label": "scared",
+    "description": "",
+    "modifier_group": "feel",
+    "bg_color": "bg_emote_core",
+    "icon_file_name": "emotion-scared",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "sick": {
+    "label": "sick",
+    "description": "",
+    "modifier_group": "feel",
+    "bg_color": "bg_emote",
+    "icon_file_name": "emotion-sick",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "hopeful": {
+    "label": "hopeful",
+    "description": "",
+    "modifier_group": "blank",
+    "bg_color": "bg_emote",
+    "icon_file_name": "emotion-hopeful",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "tired": {
+    "label": "tired",
+    "description": "",
+    "modifier_group": "feel",
+    "bg_color": "bg_emote",
+    "icon_file_name": "emotion-tired",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "doh": {
+    "label": "doh",
+    "description": "",
+    "modifier_group": "blank",
+    "bg_color": "bg_emote",
+    "icon_file_name": "emotion-doh",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "you": {
+    "label": "you",
+    "description": "person",
+    "modifier_group": "people",
+    "bg_color": "bg_people",
+    "icon_file_name": "people-you",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "we": {
+    "label": "we",
+    "description": "us, people",
+    "modifier_group": "people",
+    "bg_color": "bg_people",
+    "icon_file_name": "people-we",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "family": {
+    "label": "family",
+    "description": "",
+    "modifier_group": "people",
+    "bg_color": "bg_people",
+    "icon_file_name": "people-family",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "friends": {
+    "label": "friends",
+    "description": "people",
+    "modifier_group": "people",
+    "bg_color": "bg_people",
+    "icon_file_name": "people-friends",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "mum": {
+    "label": "mum",
+    "description": "mother, mom",
+    "modifier_group": "people",
+    "bg_color": "bg_people",
+    "icon_file_name": "people-mum",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "dad": {
+    "label": "dad",
+    "description": "father, dad",
+    "modifier_group": "people",
+    "bg_color": "bg_people",
+    "icon_file_name": "people-dad",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "couple": {
+    "label": "couple",
+    "description": "",
+    "modifier_group": "people",
+    "bg_color": "bg_people",
+    "icon_file_name": "people-couple",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "person": {
+    "label": "person",
+    "description": "human, being",
+    "modifier_group": "people",
+    "bg_color": "bg_people",
+    "icon_file_name": "people-person",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "baby": {
+    "label": "baby",
+    "description": "",
+    "modifier_group": "people",
+    "bg_color": "bg_people",
+    "icon_file_name": "people-baby",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "child": {
+    "label": "child",
+    "description": "",
+    "modifier_group": "people",
+    "bg_color": "bg_people",
+    "icon_file_name": "people-child",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "adult": {
+    "label": "adult",
+    "description": "",
+    "modifier_group": "people",
+    "bg_color": "bg_people",
+    "icon_file_name": "people-adult",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "senior": {
+    "label": "senior",
+    "description": "",
+    "modifier_group": "people",
+    "bg_color": "bg_people",
+    "icon_file_name": "people-senior",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "female": {
+    "label": "female",
+    "description": "",
+    "modifier_group": "people",
+    "bg_color": "bg_people",
+    "icon_file_name": "people-female",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "male": {
+    "label": "male",
+    "description": "",
+    "modifier_group": "people",
+    "bg_color": "bg_people",
+    "icon_file_name": "people-male",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "hand": {
+    "label": "hand",
+    "description": "",
+    "modifier_group": "blank",
+    "bg_color": "bg_people",
+    "icon_file_name": "people-body-hand",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "head": {
+    "label": "head",
+    "description": "",
+    "modifier_group": "blank",
+    "bg_color": "bg_people",
+    "icon_file_name": "people-body-head",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "chest": {
+    "label": "chest",
+    "description": "",
+    "modifier_group": "blank",
+    "bg_color": "bg_people",
+    "icon_file_name": "people-body-chest",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "foot": {
+    "label": "foot",
+    "description": "",
+    "modifier_group": "blank",
+    "bg_color": "bg_people",
+    "icon_file_name": "people-body-foot",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "want": {
+    "label": "want",
+    "description": "desire, wish",
+    "modifier_group": "wants",
+    "bg_color": "bg_action",
+    "icon_file_name": "action-want",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "give": {
+    "label": "give",
+    "description": "hand over",
+    "modifier_group": "wants",
+    "bg_color": "bg_action",
+    "icon_file_name": "action-give",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "feel": {
+    "label": "feel",
+    "description": "",
+    "modifier_group": "blank",
+    "bg_color": "bg_action",
+    "icon_file_name": "action-feel",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "think": {
+    "label": "think",
+    "description": "",
+    "modifier_group": "blank",
+    "bg_color": "bg_action",
+    "icon_file_name": "action-think",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "yes": {
+    "label": "yes",
+    "description": "good, right",
+    "modifier_group": "yes",
+    "bg_color": "bg_action",
+    "icon_file_name": "core-yes",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "no": {
+    "label": "no",
+    "description": "bad, wrong",
+    "modifier_group": "no",
+    "bg_color": "bg_action",
+    "icon_file_name": "core-no",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "go": {
+    "label": "go",
+    "description": "travel to, ",
+    "modifier_group": "movement",
+    "bg_color": "bg_action",
+    "icon_file_name": "action-travel",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "how": {
+    "label": "how",
+    "description": "",
+    "modifier_group": "blank",
+    "bg_color": "bg_action",
+    "icon_file_name": "core-how",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "who": {
+    "label": "who",
+    "description": "person",
+    "modifier_group": "blank",
+    "bg_color": "bg_action",
+    "icon_file_name": "people-who",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "what": {
+    "label": "what",
+    "description": "what is this object?",
+    "modifier_group": "blank",
+    "bg_color": "bg_action",
+    "icon_file_name": "object-what",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "where": {
+    "label": "where",
+    "description": "where is this location?",
+    "modifier_group": "blank",
+    "bg_color": "bg_action",
+    "icon_file_name": "location-where",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "when": {
+    "label": "when",
+    "description": "what time",
+    "modifier_group": "blank",
+    "bg_color": "bg_action",
+    "icon_file_name": "time-when",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "stay": {
+    "label": "stay",
+    "description": "",
+    "modifier_group": "blank",
+    "bg_color": "bg_action",
+    "icon_file_name": "action-stay",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "leave": {
+    "label": "leave",
+    "description": "",
+    "modifier_group": "blank",
+    "bg_color": "bg_action",
+    "icon_file_name": "action-leave",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "sit": {
+    "label": "sit",
+    "description": "",
+    "modifier_group": "blank",
+    "bg_color": "bg_action",
+    "icon_file_name": "action-sit",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "stand": {
+    "label": "stand",
+    "description": "",
+    "modifier_group": "blank",
+    "bg_color": "bg_action",
+    "icon_file_name": "action-stand",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "wake up": {
+    "label": "wake up",
+    "description": "",
+    "modifier_group": "blank",
+    "bg_color": "bg_action",
+    "icon_file_name": "action-awake",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "sleep": {
+    "label": "sleep",
+    "description": "",
+    "modifier_group": "blank",
+    "bg_color": "bg_action",
+    "icon_file_name": "action-sleep",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "call": {
+    "label": "call",
+    "description": "",
+    "modifier_group": "blank",
+    "bg_color": "bg_action",
+    "icon_file_name": "action-call",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "eat": {
+    "label": "eat",
+    "description": "consume",
+    "modifier_group": "actions",
+    "bg_color": "bg_action",
+    "icon_file_name": "action-eat",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "drink": {
+    "label": "drink",
+    "description": "consume",
+    "modifier_group": "actions",
+    "bg_color": "bg_action",
+    "icon_file_name": "action-drink",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "speak": {
+    "label": "speak",
+    "description": "chat, talk",
+    "modifier_group": "actions",
+    "bg_color": "bg_action",
+    "icon_file_name": "action-speak",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "watch": {
+    "label": "watch",
+    "description": "look at, see",
+    "modifier_group": "actions",
+    "bg_color": "bg_action",
+    "icon_file_name": "action-look",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "hear": {
+    "label": "hear",
+    "description": "",
+    "modifier_group": "actions",
+    "bg_color": "bg_action",
+    "icon_file_name": "action-hear",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "hug": {
+    "label": "hug",
+    "description": "",
+    "modifier_group": "blank",
+    "bg_color": "bg_action",
+    "icon_file_name": "action-hug",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "kiss": {
+    "label": "kiss",
+    "description": "",
+    "modifier_group": "blank",
+    "bg_color": "bg_action",
+    "icon_file_name": "action-kiss",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "now": {
+    "label": "now",
+    "description": "",
+    "modifier_group": "time",
+    "bg_color": "bg_time",
+    "icon_file_name": "time-now",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "soon": {
+    "label": "soon",
+    "description": "",
+    "modifier_group": "blank",
+    "bg_color": "bg_time",
+    "icon_file_name": "time-later",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "breakfast": {
+    "label": "breakfast",
+    "description": "",
+    "modifier_group": "time",
+    "bg_color": "bg_time",
+    "icon_file_name": "time-breakfast",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "lunch": {
+    "label": "lunch",
+    "description": "",
+    "modifier_group": "time",
+    "bg_color": "bg_time",
+    "icon_file_name": "time-lunch",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "dinner": {
+    "label": "dinner",
+    "description": "",
+    "modifier_group": "time",
+    "bg_color": "bg_time",
+    "icon_file_name": "time-dinner",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "15min": {
+    "label": "15min",
+    "description": "",
+    "modifier_group": "time",
+    "bg_color": "bg_time",
+    "icon_file_name": "time-15min",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "30min": {
+    "label": "30min",
+    "description": "",
+    "modifier_group": "time",
+    "bg_color": "bg_time",
+    "icon_file_name": "time-30min",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "1hr": {
+    "label": "1hr",
+    "description": "",
+    "modifier_group": "time",
+    "bg_color": "bg_time",
+    "icon_file_name": "time-1hr",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "hour": {
+    "label": "hour",
+    "description": "",
+    "modifier_group": "time",
+    "bg_color": "bg_time",
+    "icon_file_name": "time-hour",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "day": {
+    "label": "day",
+    "description": "",
+    "modifier_group": "time",
+    "bg_color": "bg_time",
+    "icon_file_name": "time-day",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "week": {
+    "label": "week",
+    "description": "",
+    "modifier_group": "time",
+    "bg_color": "bg_time",
+    "icon_file_name": "time-week",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "price": {
+    "label": "price",
+    "description": "how much is this food?",
+    "modifier_group": "core",
+    "bg_color": "bg_food",
+    "icon_file_name": "food-price",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "money": {
+    "label": "money",
+    "description": "Money",
+    "modifier_group": "blank",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-money",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "credit card": {
+    "label": "credit card",
+    "description": "credit",
+    "modifier_group": "blank",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-credit-card",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "couch": {
+    "label": "couch",
+    "description": "lounge, chair",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-couch",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "bed": {
+    "label": "bed",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-bed",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "fridge": {
+    "label": "fridge",
+    "description": "cold, keep food cold",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-fridge",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "shower": {
+    "label": "shower",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-shower",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "toilet": {
+    "label": "toilet",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-toilet",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "bin": {
+    "label": "bin",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-bin",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "asthma pump": {
+    "label": "asthma pump",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-asthma",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "wheelchair": {
+    "label": "wheelchair",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-wheelchair",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "bicycle": {
+    "label": "bicycle",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-bicycle",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "car": {
+    "label": "car",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-car",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "bus": {
+    "label": "bus",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-bus",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "train": {
+    "label": "train",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-train",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "tram": {
+    "label": "tram",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-tram",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "plane": {
+    "label": "plane",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-plane",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "phone": {
+    "label": "phone",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-phone",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "laptop": {
+    "label": "laptop",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-laptop",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "tv": {
+    "label": "tv",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-tv",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "console": {
+    "label": "console",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-console",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "internet": {
+    "label": "internet",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-web",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "thongs": {
+    "label": "thongs",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-flipflop",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "shoes": {
+    "label": "shoes",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-shoes",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "socks": {
+    "label": "socks",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-socks",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "shorts": {
+    "label": "shorts",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-shorts",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "tshirt": {
+    "label": "tshirt",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-tshirt",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "dress": {
+    "label": "dress",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-dress",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "jeans": {
+    "label": "jeans",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-jeans",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "backpack": {
+    "label": "backpack",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-backpack",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "dog": {
+    "label": "dog",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-dog",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "cat": {
+    "label": "cat",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-cat",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "horse": {
+    "label": "horse",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-horse",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "cow": {
+    "label": "cow",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-cow",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "fly": {
+    "label": "fly",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-fly",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "ladybug": {
+    "label": "ladybug",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-ladybug",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "spider": {
+    "label": "spider",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-spider",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "worm": {
+    "label": "worm",
+    "description": "",
+    "modifier_group": "objects",
+    "bg_color": "bg_object",
+    "icon_file_name": "object-worm",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "water": {
+    "label": "water",
+    "description": "",
+    "modifier_group": "food",
+    "bg_color": "bg_food",
+    "icon_file_name": "food-water",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "shake": {
+    "label": "shake",
+    "description": "milkshake",
+    "modifier_group": "food",
+    "bg_color": "bg_food",
+    "icon_file_name": "food-shake",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "coffee": {
+    "label": "coffee",
+    "description": "",
+    "modifier_group": "food",
+    "bg_color": "bg_food",
+    "icon_file_name": "food-coffee",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "bubble tea": {
+    "label": "bubble tea",
+    "description": "",
+    "modifier_group": "food",
+    "bg_color": "bg_food",
+    "icon_file_name": "food-pearl-tea",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "soft drink": {
+    "label": "soft drink",
+    "description": "",
+    "modifier_group": "food",
+    "bg_color": "bg_food",
+    "icon_file_name": "food-softdrink",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "tea": {
+    "label": "tea",
+    "description": "",
+    "modifier_group": "food",
+    "bg_color": "bg_food",
+    "icon_file_name": "food-tea",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "pizza": {
+    "label": "pizza",
+    "description": "",
+    "modifier_group": "food",
+    "bg_color": "bg_food",
+    "icon_file_name": "food-pizza",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "burger": {
+    "label": "burger",
+    "description": "",
+    "modifier_group": "food",
+    "bg_color": "bg_food",
+    "icon_file_name": "food-burger",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "hotdog": {
+    "label": "hotdog",
+    "description": "",
+    "modifier_group": "food",
+    "bg_color": "bg_food",
+    "icon_file_name": "food-hotdog",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "bread": {
+    "label": "bread",
+    "description": "",
+    "modifier_group": "food",
+    "bg_color": "bg_food",
+    "icon_file_name": "food-bread",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "sushi": {
+    "label": "sushi",
+    "description": "",
+    "modifier_group": "food",
+    "bg_color": "bg_food",
+    "icon_file_name": "food-sushi",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "noodle": {
+    "label": "noodle",
+    "description": "",
+    "modifier_group": "food",
+    "bg_color": "bg_food",
+    "icon_file_name": "food-noodle",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "chips": {
+    "label": "chips",
+    "description": "",
+    "modifier_group": "food",
+    "bg_color": "bg_food",
+    "icon_file_name": "food-chips",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "cake": {
+    "label": "cake",
+    "description": "",
+    "modifier_group": "food",
+    "bg_color": "bg_food",
+    "icon_file_name": "food-cake",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "donut": {
+    "label": "donut",
+    "description": "",
+    "modifier_group": "food",
+    "bg_color": "bg_food",
+    "icon_file_name": "food-donut",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": false
+  },
+  "ice-cream": {
+    "label": "ice-cream",
+    "description": "",
+    "modifier_group": "food",
+    "bg_color": "bg_food",
+    "icon_file_name": "food-ice-cream",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": false
+  },
+  "chocolate": {
+    "label": "chocolate",
+    "description": "",
+    "modifier_group": "food",
+    "bg_color": "bg_food",
+    "icon_file_name": "food-chocolate",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": false
+  },
+  "cupcake": {
+    "label": "cupcake",
+    "description": "",
+    "modifier_group": "food",
+    "bg_color": "bg_food",
+    "icon_file_name": "food-cupcake",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": false
+  },
+  "inside": {
+    "label": "inside",
+    "description": "indoors",
+    "modifier_group": "places",
+    "bg_color": "bg_location",
+    "icon_file_name": "location-inside",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "outside": {
+    "label": "outside",
+    "description": "outdoors",
+    "modifier_group": "places",
+    "bg_color": "bg_location",
+    "icon_file_name": "location-outside",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "home": {
+    "label": "home",
+    "description": "",
+    "modifier_group": "places",
+    "bg_color": "bg_location",
+    "icon_file_name": "location-home",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "school": {
+    "label": "school",
+    "description": "place of learning",
+    "modifier_group": "places",
+    "bg_color": "bg_location",
+    "icon_file_name": "location-school",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "city": {
+    "label": "city",
+    "description": "buildings",
+    "modifier_group": "places",
+    "bg_color": "bg_location",
+    "icon_file_name": "location-city",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "beach": {
+    "label": "beach",
+    "description": "sea, waves",
+    "modifier_group": "places",
+    "bg_color": "bg_location",
+    "icon_file_name": "location-beach",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "park": {
+    "label": "park",
+    "description": "trees, playground",
+    "modifier_group": "places",
+    "bg_color": "bg_location",
+    "icon_file_name": "location-park",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "sunny": {
+    "label": "sunny",
+    "description": "",
+    "modifier_group": "weather",
+    "bg_color": "bg_weather",
+    "icon_file_name": "weather-sunny",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "windy": {
+    "label": "windy",
+    "description": "",
+    "modifier_group": "weather",
+    "bg_color": "bg_weather",
+    "icon_file_name": "weather-windy",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "cloudy": {
+    "label": "cloudy",
+    "description": "",
+    "modifier_group": "weather",
+    "bg_color": "bg_weather",
+    "icon_file_name": "weather-cloudy",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "rainbow": {
+    "label": "rainbow",
+    "description": "",
+    "modifier_group": "weather",
+    "bg_color": "bg_weather",
+    "icon_file_name": "weather-rainbow",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "light-rain": {
+    "label": "light-rain",
+    "description": "",
+    "modifier_group": "weather",
+    "bg_color": "bg_weather",
+    "icon_file_name": "weather-light-rain",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "raining": {
+    "label": "raining",
+    "description": "",
+    "modifier_group": "weather",
+    "bg_color": "bg_weather",
+    "icon_file_name": "weather-raining",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "stormy": {
+    "label": "stormy",
+    "description": "",
+    "modifier_group": "weather",
+    "bg_color": "bg_weather",
+    "icon_file_name": "weather-stormy",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "snowing": {
+    "label": "snowing",
+    "description": "",
+    "modifier_group": "weather",
+    "bg_color": "bg_weather",
+    "icon_file_name": "weather-snowing",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "?": {
+    "label": "?",
+    "description": "",
+    "hide_label": true,
+    "modifier_group": "blank",
+    "bg_color": "bg_core",
+    "icon_file_name": "punctuation-question",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "!": {
+    "label": "!",
+    "description": "",
+    "hide_label": true,
+    "modifier_group": "blank",
+    "bg_color": "bg_core",
+    "icon_file_name": "punctuation-exclamation",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  ".": {
+    "label": ".",
+    "description": "",
+    "hide_label": true,
+    "modifier_group": "blank",
+    "bg_color": "bg_core",
+    "icon_file_name": "punctuation-fullstop",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  },
+  "...": {
+    "label": "...",
+    "description": "",
+    "hide_label": true,
+    "modifier_group": "blank",
+    "bg_color": "bg_core",
+    "icon_file_name": "punctuation-dot",
+    "file_type": "icon",
+    "visible": true,
+    "is_active": true
+  }
+}

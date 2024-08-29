@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "strictNullChecks": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "pages/secret.js",
+    "pages/secret.jsx",
+    "pages/components/jimple-logo.js",
+    "pages/components/UserContext.js",
+    "pages/components/not-authorized.js",
+    "pages/components/key.jsx",
+    ".next/types/**/*.ts",
+    "node_modules/yup"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
