@@ -52,7 +52,7 @@
     "react-transition-group": "^4.4.5",
     "regenerator-runtime": "^0.13.11",
     "retell-sdk": "^3.12.0",
-    "stripe": "^12.18.0",
+    "stripe": "^22.2.0",
     "typescript": "^4.9.4",
     "uuid": "^9.0.1",
     "yup": "^0.32.11"
