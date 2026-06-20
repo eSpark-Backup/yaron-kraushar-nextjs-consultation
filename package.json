@@ -60,7 +60,7 @@
   "devDependencies": {
     "@eslint/js": "^9.9.1",
     "@types/micro": "^10.0.0",
-    "@types/react": "^18.0.25",
+    "@types/react": "^19.2.17",
     "@types/react-speech-recognition": "^3.9.0",
     "@types/regenerator-runtime": "^0.13.1",
     "@types/uuid": "^10.0.0",
