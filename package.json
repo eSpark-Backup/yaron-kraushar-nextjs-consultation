@@ -63,7 +63,7 @@
     "@types/react": "^18.0.25",
     "@types/react-speech-recognition": "^3.9.0",
     "@types/regenerator-runtime": "^0.13.1",
-    "@types/uuid": "^10.0.0",
+    "@types/uuid": "^11.0.0",
     "@types/yup": "^0.32.0",
     "eslint": "^10.4.1",
     "eslint-config-next": "^13.4.12",
