@@ -53,7 +53,7 @@
     "regenerator-runtime": "^0.14.1",
     "retell-sdk": "^3.12.0",
     "stripe": "^22.2.0",
-    "typescript": "^6.0.3",
+    "typescript": "^7.0.2",
     "uuid": "^9.0.1",
     "yup": "^0.32.11"
   },
