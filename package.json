@@ -51,7 +51,7 @@
     "react-speech-recognition": "^3.10.0",
     "react-transition-group": "^4.4.5",
     "regenerator-runtime": "^0.14.1",
-    "retell-sdk": "^3.12.0",
+    "retell-sdk": "^5.45.0",
     "stripe": "^22.2.0",
     "typescript": "^6.0.3",
     "uuid": "^9.0.1",
