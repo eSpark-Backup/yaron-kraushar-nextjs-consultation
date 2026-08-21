@@ -54,7 +54,7 @@
     "retell-sdk": "^3.12.0",
     "stripe": "^22.2.0",
     "typescript": "^6.0.3",
-    "uuid": "^9.0.1",
+    "uuid": "^14.0.2",
     "yup": "^0.32.11"
   },
   "devDependencies": {
